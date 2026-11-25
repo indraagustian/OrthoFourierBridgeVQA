@@ -1,0 +1,5 @@
+Model_Key,Display_Name,Params_Total_M,Params_Ratio_vs_7B,Weights_FP16_GB,Peak_VRAM_GB,Vision_GFLOPs,Bridge_GFLOPs,Decoder_GFLOPs,Total_TFLOPs_per_Query,FLOPs_Reduction_vs_7B,Latency_A100_ms,Throughput_A100_QPS,Energy_per_Query_Joules_A100,Queries_per_Joule_A100,Energy_Saving_Factor_vs_7B,CO2e_g_per_1000_Queries,Edge_RTX4060_Latency_ms,Edge_RTX4060_Joules
+Florence2_Vanilla_A0,Florence-2-base A0 (Vanilla Baseline),232.0,32.8,0.43,3.42,220.83,0.0,114.5,0.3353,38.4x,46.2,21.65,11.69,0.0856,8.9x,1.54,78.5,7.83
+Florence2_M4_GeoFiLM,Florence-2-base M4 (GeoFiLM Original),234.2,32.5,0.44,3.48,220.83,0.1191,114.5,0.3355,38.3x,47.8,20.92,12.09,0.0827,8.6x,1.6,81.2,8.1
+CanonBridge_05_OrthoUnified,CanonBridge / Model 05 (Ortho-Unified SA+Geo),235.1,32.4,0.44,3.52,220.83,0.1196,114.5,0.3355,38.3x,48.9,20.45,12.37,0.0808,8.4x,1.63,83.1,8.29
+Gautam_Qwen25VL_7B,Qwen2.5-VL-7B-ft (Benchmark SOTA Gautam et al.),7615.0,1.0,14.18,16.85,1374.39,0.0,11490.06,12.8645,1.0x,412.5,2.42,104.36,0.0096,1.0x,13.77,1150.0,114.71

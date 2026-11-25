@@ -1,0 +1,25 @@
+Category,Model,N,Jaccard (%),Recall (%),Hedge_Collapse (%)
+abnormality_location,A0_VQAonly_r32,1901,12.05,12.89,39.61
+abnormality_location,E_CLBRIDGE_r32,1901,5.81,7.91,40.72
+abnormality_location,M1_GeoPE_r32,1901,6.8,8.91,42.56
+abnormality_location,M2_GeoDiff_r32,1901,8.86,10.89,28.46
+abnormality_location,M3_StaticGate_r32,1901,2.9,4.19,27.3
+abnormality_location,M4_GeoFiLM_r32,1901,11.44,14.6,36.98
+abnormality_location,B1_M4_CanonBridge,1901,14.04,17.94,37.24
+abnormality_location,Gautam_Qwen2.5VL_7B,1901,32.07,38.33,37.77
+landmark_location,A0_VQAonly_r32,1224,4.48,4.57,4.0
+landmark_location,E_CLBRIDGE_r32,1224,1.95,3.25,6.7
+landmark_location,M1_GeoPE_r32,1224,3.26,4.5,4.66
+landmark_location,M2_GeoDiff_r32,1224,6.12,8.08,4.49
+landmark_location,M3_StaticGate_r32,1224,0.83,1.39,3.02
+landmark_location,M4_GeoFiLM_r32,1224,3.16,5.0,2.94
+landmark_location,B1_M4_CanonBridge,1224,5.3,7.91,4.0
+landmark_location,Gautam_Qwen2.5VL_7B,1224,20.5,26.4,3.84
+instrument_location,A0_VQAonly_r32,1913,6.22,7.43,3.97
+instrument_location,E_CLBRIDGE_r32,1913,15.64,17.88,3.87
+instrument_location,M1_GeoPE_r32,1913,15.38,17.26,3.87
+instrument_location,M2_GeoDiff_r32,1913,13.01,15.56,2.2
+instrument_location,M3_StaticGate_r32,1913,14.63,17.0,2.51
+instrument_location,M4_GeoFiLM_r32,1913,18.87,24.16,3.5
+instrument_location,B1_M4_CanonBridge,1913,21.26,25.56,3.24
+instrument_location,Gautam_Qwen2.5VL_7B,1913,42.79,54.81,4.29

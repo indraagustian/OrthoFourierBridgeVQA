@@ -1,0 +1,3 @@
+Group,N_Categories,Mean_B1,Mean_O2,Mean_Delta_pp,Max_Delta_pp
+Non-Spatial / Semantic,12,90.72166666666668,90.42833333333333,-0.29333333333333333,4.84
+Spatial/Geometric (9D+Fourier/CORN),4,64.995,69.73,4.735,10.72

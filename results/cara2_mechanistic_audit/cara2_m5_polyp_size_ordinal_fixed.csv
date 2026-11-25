@@ -1,0 +1,12 @@
+Source,N,Parsed_Rate (%),All_Exact (%),All_Within1 (%),All_Norm_MAE,All_QWK,Parsed_QWK,Single_N,Single_Exact (%)
+Decoder: M1_GeoPE_r32,733,96.86,34.79,79.4,0.2956,0.1027,0.1087,106,28.3
+Decoder: M2_GeoDiff_r32,733,97.27,33.42,80.49,0.292,0.1197,0.1175,106,33.96
+Decoder: M3_StaticGate_r32,733,96.59,35.61,79.81,0.2906,0.0859,0.0962,106,41.51
+Decoder: M4_GeoFiLM_r32,733,97.54,41.88,89.09,0.2333,0.428,0.4302,106,45.28
+Decoder: GeoFiLMpp_U4_full,733,93.45,45.29,91.0,0.216,0.5584,0.5764,106,50.94
+Decoder: B1_M4_CanonBridge,733,97.54,66.58,97.0,0.1219,0.7656,0.7756,106,70.75
+Decoder: O2_Raw_Decoder,733,97.95,74.08,98.36,0.0923,0.8192,0.8279,106,73.58
+Decoder: O2_Ortho_Unified_Full,733,97.95,74.08,98.36,0.0923,0.8192,0.8279,106,73.58
+EncoderHead: B1_Canon_Head,733,68.76,67.8,95.91,0.1214,0.7319,0.88,106,66.98
+EncoderHead: O2_Canon_Head,733,81.45,75.72,98.09,0.0873,0.8242,0.9076,106,77.36
+EncoderHead: O2_CORN_Head (ortho_diag),733,100.0,75.99,98.23,0.0859,0.8393,0.8393,106,74.53

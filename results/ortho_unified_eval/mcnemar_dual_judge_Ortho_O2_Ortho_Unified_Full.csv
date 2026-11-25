@@ -1,0 +1,17 @@
+Judge,Comparison,N_Aspects,Fix (c),Break (b),Net (c-b),Net_Gain (%),McNemar_p
+qwen25_7b,Ortho_O2_Ortho_Unified_Full vs A0_VQAonly_r32,31622,2177,1087,1090,3.45,1.5511182037078836e-82
+qwen25_7b,Ortho_O2_Ortho_Unified_Full vs E_CLBRIDGE_r32,31622,1467,1111,356,1.13,2.511420992591063e-12
+qwen25_7b,Ortho_O2_Ortho_Unified_Full vs Gautam_Qwen2.5VL_7B,31622,1620,1498,122,0.39,0.030222940498009575
+qwen25_7b,Ortho_O2_Ortho_Unified_Full vs M1_GeoPE_r32,31622,1576,1022,554,1.75,1.2767155279242566e-27
+qwen25_7b,Ortho_O2_Ortho_Unified_Full vs M2_GeoDiff_r32,31622,1484,1094,390,1.23,1.64379784039622e-14
+qwen25_7b,Ortho_O2_Ortho_Unified_Full vs M3_StaticGate_r32,31622,1423,1063,360,1.14,5.491231864962582e-13
+qwen25_7b,Ortho_O2_Ortho_Unified_Full vs M4_GeoFiLM_r32,31622,1157,968,189,0.6,4.4880991033113454e-05
+qwen25_7b,Ortho_O2_Ortho_Unified_Full vs Bridge_B1_M4_CanonBridge,31622,897,922,-25,-0.08,0.5736353325675574
+llama31_8b,Ortho_O2_Ortho_Unified_Full vs A0_VQAonly_r32,31622,1938,986,952,3.01,1.7943953795497647e-70
+llama31_8b,Ortho_O2_Ortho_Unified_Full vs E_CLBRIDGE_r32,31622,1272,977,295,0.93,5.363097314883439e-10
+llama31_8b,Ortho_O2_Ortho_Unified_Full vs Gautam_Qwen2.5VL_7B,31622,1441,1264,177,0.56,0.0007115727161753969
+llama31_8b,Ortho_O2_Ortho_Unified_Full vs M1_GeoPE_r32,31622,1536,856,680,2.15,2.102156807592145e-44
+llama31_8b,Ortho_O2_Ortho_Unified_Full vs M2_GeoDiff_r32,31622,1439,926,513,1.62,4.119920821572228e-26
+llama31_8b,Ortho_O2_Ortho_Unified_Full vs M3_StaticGate_r32,31622,1416,871,545,1.72,2.9709065203510217e-30
+llama31_8b,Ortho_O2_Ortho_Unified_Full vs M4_GeoFiLM_r32,31622,1123,813,310,0.98,1.9576274327076897e-12
+llama31_8b,Ortho_O2_Ortho_Unified_Full vs Bridge_B1_M4_CanonBridge,31622,812,786,26,0.08,0.5317275226282439

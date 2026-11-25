@@ -1,0 +1,7 @@
+kategori,mode,n,n_label,probe_acc,probe_auc,ctrl_acc,ctrl_auc,probe_auc_C001,d_auc,d_auc_C001,N,gen_L1,gen_ALL,gautam_L1,gautam_ALL,putusan,est_naik_pp
+polyp_removal_status,multilabel,355,3,,0.9914,,0.5614,0.9939,0.43,0.4325,2312,0.85,34.9,1.69,27.77,READOUT,3.9884
+abnormality_location,multilabel,326,10,,0.9653,,0.4373,0.9716,0.528,0.5343,1901,12.27,68.28,19.02,74.17,READOUT,1.1521
+polyp_size,multilabel,311,5,,0.9124,,0.5071,0.9184,0.4054,0.4113,1936,79.74,73.45,90.03,82.39,READOUT,0.5635
+abnormality_color,multilabel,314,9,,0.7841,,0.4552,0.8326,0.3289,0.3775,1862,79.94,84.05,81.53,84.32,READOUT,0.0
+landmark_location,multilabel,214,10,,0.8059,,0.4856,0.8371,0.3203,0.3515,1224,69.63,75.74,72.9,84.48,READOUT,0.0
+text_presence,multilabel,405,3,,0.9798,,0.5268,0.9852,0.453,0.4584,2454,94.32,88.02,96.79,86.35,READOUT,0.0502

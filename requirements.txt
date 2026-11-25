@@ -1,0 +1,14 @@
+# Versions not pinned: [UNVERIFIED_CONFIG: exact versions used in training]
+torch
+transformers
+peft
+safetensors
+datasets
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+Pillow

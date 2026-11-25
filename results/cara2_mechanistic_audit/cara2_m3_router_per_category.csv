@@ -1,0 +1,17 @@
+Category,GT_Count,Pred_Count,Precision (%),Recall (%),F1 (%),NonTarget_Suppression (%)
+polyp_type,1944,1850,42.76,40.69,41.7,92.44
+polyp_size,1925,710,65.35,24.1,35.22,98.25
+polyp_removal_status,2312,1664,27.82,20.03,23.29,91.2
+finding_count,2115,2555,17.42,21.04,19.06,84.75
+polyp_count,1900,1368,21.13,15.21,17.69,92.32
+instrument_location,1913,3507,8.35,15.32,10.81,77.11
+procedure_type,2303,1542,12.65,8.47,10.14,90.13
+abnormality_presence,1823,564,18.62,5.76,8.8,96.75
+instrument_count,2208,416,25.48,4.8,8.08,97.74
+landmark_presence,1264,381,9.19,2.77,4.26,97.64
+abnormality_location,1901,0,0.0,0.0,0.0,100.0
+box_artifact_presence,2319,0,0.0,0.0,0.0,100.0
+instrument_presence,1837,0,0.0,0.0,0.0,100.0
+abnormality_color,1862,0,0.0,0.0,0.0,100.0
+landmark_location,1224,2,0.0,0.0,0.0,99.99
+text_presence,2454,52,0.0,0.0,0.0,99.61

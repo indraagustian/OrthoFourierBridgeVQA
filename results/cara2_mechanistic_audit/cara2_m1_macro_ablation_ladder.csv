@@ -1,0 +1,10 @@
+Model_Key,Stage_Description,L1_Det (%),Llama_Overall (%),dLlama_vs_A0 (pp),Qwen_Overall (%),dQwen_vs_A0 (pp),Token_F1 (%),9Grid_Jaccard (%),9Grid_Prec (%)
+A0_VQAonly_r32,A0: Florence-2 Vanilla (LoRA r=32),79.99,84.57,0.0,82.44,0.0,65.64,8.03,9.64
+M1_GeoPE_r32,M1: + 2D Continuous Fourier (GeoPE),79.95,85.43,0.86,84.13,1.69,66.91,9.65,13.45
+M2_GeoDiff_r32,M2: + Lesion-Mucosa Diff (GeoDiff),81.62,85.96,1.39,84.65,2.21,66.87,9.47,12.58
+M3_StaticGate_r32,M3: + Static Residual Gate,82.62,85.86,1.29,84.74,2.3,67.15,7.42,10.76
+M4_GeoFiLM_r32,M4: + Question-Conditioned FiLM (GeoFiLM),83.79,86.6,2.03,85.29,2.85,68.29,12.96,17.29
+GeoFiLMpp_U4_full,U4: GeoFiLM++ Per-Patch Multi-Slot (Neg. Ablation),81.7,84.51,-0.06,82.53,0.09,,,
+Bridge_B1_M4_CanonBridge,B1: M4 + Unconstrained Additive CanonBridge,84.24,87.5,2.93,85.96,3.52,68.9,15.93,21.11
+Ortho_O2_Ortho_Unified_Full,O2: M4 + OrthoUnifiedBridge (Proposed),83.73,87.58,3.01,85.88,3.44,,18.76,25.27
+Gautam_Qwen2.5VL_7B,SOTA 7B: Qwen2.5-VL-7B-ft (Gautam et al.),84.43,87.02,2.45,85.5,3.06,71.09,34.46,41.11

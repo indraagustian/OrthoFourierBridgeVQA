@@ -1,0 +1,10 @@
+Judge,Model,Overall (%),L1_Det (%),L2_Judge (%),L3_Judge (%),L2+L3_Judge (%),Total_Aspects
+qwen25_7b,A0_VQAonly_r32,82.44,79.99,82.35,83.36,82.95,31622
+qwen25_7b,E_CLBRIDGE_r32,84.76,81.2,84.56,86.14,85.5,31622
+qwen25_7b,Gautam_Qwen2.5VL_7B,85.5,84.43,83.51,87.21,85.72,31622
+qwen25_7b,M1_GeoPE_r32,84.13,79.95,83.98,85.7,85.01,31622
+qwen25_7b,M2_GeoDiff_r32,84.65,81.62,84.27,85.97,85.29,31622
+qwen25_7b,M3_StaticGate_r32,84.74,82.62,84.03,85.97,85.19,31622
+qwen25_7b,M4_GeoFiLM_r32,85.29,83.79,84.22,86.53,85.6,31622
+qwen25_7b,Bridge_B1_M4_CanonBridge,85.96,84.24,84.96,87.24,86.32,31622
+qwen25_7b,Ortho_O2_Ortho_Unified_Full,85.88,83.73,85.12,87.15,86.34,31622
