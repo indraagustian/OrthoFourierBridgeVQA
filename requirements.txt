@@ -1,14 +1,27 @@
-# Versions not pinned: [UNVERIFIED_CONFIG: exact versions used in training]
-torch
-transformers
-peft
+# Versions taken from the notebooks' pip commands and logged outputs
+# (notebooks 01, 05, 06, 07). No requirements file existed in the workspace.
+transformers==4.49.0
+peft==0.21.2
+# torch: notebooks 01/03/05 logged 2.11.0+cu130; notebook 06 logged 2.14.1+cu130.
+# [CONFLICT: torch 2.11.0+cu130 (01,05) vs 2.14.1+cu130 (06)] -> lower bound only
+torch>=2.11
+torchao>=0.16.0
+# Notebook 07 installs: accelerate>=0.34.0, bitsandbytes, safetensors, datasets, seaborn, matplotlib
+accelerate>=0.34.0
+bitsandbytes
 safetensors
 datasets
+# pandas: notebook 07 log shows both pandas==2.2.3 and pandas<2.4.0 constraints
+# [CONFLICT: pandas==2.2.3 vs pandas<2.4.0 in notebook 07]
+pandas<2.4.0
+# Unpinned in notebooks:
 numpy
-pandas
 scipy
 scikit-learn
 matplotlib
 seaborn
 tqdm
 Pillow
+rouge-score
+sacrebleu
+nltk

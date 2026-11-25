@@ -11,10 +11,10 @@ Code and result summaries for the IEEE Signal Processing Letters submission.
 - Notebooks were run on Google Colab and contain Drive paths (`/content/drive/MyDrive/...`). Edit the path cells before running.
 - Large per-sample files (`predictions.json`, judge JSONs, checkpoints) are not included. [LINK_NEEDED: hosting location for large artifacts]
 - Dataset: Kvasir-VQA-x1 (official test split); obtain it from its original source.
-- Install: `pip install -r requirements.txt` (versions unpinned).
+- Install: `pip install -r requirements.txt` (`transformers` and `peft` pinned from the notebooks; see comments for unresolved conflicts).
 
 ## License
-[LICENSE_NEEDED: choose a license before making the repo public]
+MIT License (see `LICENSE`).
 
 ## Citation
 [CITATION_NEEDED: add BibTeX after acceptance]
